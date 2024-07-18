@@ -1,0 +1,180 @@
+
+.dashboard-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: auto;
+  height: 330px;
+}
+.dashboard-container::-webkit-scrollbar{
+  display: none;
+}
+.dashboard-container1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -15px;
+}
+label{
+  font-weight: bold;
+}
+.edit-lable{
+  font-weight: bold;
+}
+/* Form for creating new entries */
+.create-form {
+  margin-bottom: 20px;
+}
+
+/* Input fields in forms */
+.input-field {
+  width: calc(100% - 10px);
+  margin: 5px;
+  padding: 8px;
+  font-size: 16px;
+}
+.input-field1 {
+  width: calc(100% - 10px);
+  margin: 5px;
+  padding: 8px;
+  font-size: 16px;
+  height: 100px;
+}
+
+/* Button to create new entries */
+.btn-create {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 500px;
+  margin-left: 40px;
+
+}
+
+.btn-create:hover {
+  background-color: #45a049;
+  border-radius: 10px;
+}
+
+/* List of phonebook entries */
+.entry-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Each phonebook entry in the list */
+.phonebook-entry {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Form for editing entries */
+.edit-form {
+  margin-bottom: 10px;
+}
+
+/* Button to save edited entries */
+.btn-save {
+  background-color: #008CBA;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 5px;
+  width: 400px;
+  margin-left: 70px;
+}
+
+.btn-save:hover {
+  background-color: #005f7f;
+  border-radius: 5px;
+}
+
+/* Button to cancel editing */
+.btn-cancel {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 400px;
+margin-top: 5px;
+margin-left: 70px;
+}
+
+.btn-cancel:hover {
+  background-color: #d32f2f;
+  border-radius: 5px;
+}
+
+/* Container for displaying entry details */
+.entry-details {
+  margin-bottom: 10px;
+}
+
+/* Button to edit entries */
+.btn-edit {
+  background-color: #008CBA;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+  width: 400px;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+
+.btn-edit:hover {
+  background-color: #005f7f;
+  border-radius: 8px;
+}
+
+/* Button to delete entries */
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 400px;
+margin-top: 5px;
+margin-left: 70px;
+}
+
+.btn-delete:hover {
+  background-color: #d32f2f;
+  border-radius: 8px;
+}
+
+/* Logout button at the bottom */
+.logout-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 500px;
+  margin-left: 40px;
+
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+  border-radius: 10px;
+}
